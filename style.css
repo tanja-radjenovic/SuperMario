@@ -1,0 +1,37 @@
+body {
+  background-image: url(./bg.jpg);
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: 0% 100%;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+.mario {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 90px;
+}
+
+.marioJumped {
+  margin-bottom: 0px;
+}
+.marioJump {
+  margin-bottom: 200px;
+}
+
+.marioJumpedLeft {
+  transform: scaleX(-1);
+  margin-bottom: 200px;
+}
+
+.marioLeft {
+  transform: scaleX(-1);
+  margin-bottom: 0px;
+}
+
+.marioRight {
+  transform: scaleX(1);
+}
